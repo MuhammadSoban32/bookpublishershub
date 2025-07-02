@@ -1,3 +1,4 @@
 nav img {
   /* background-color: black; */
+  object-fit: contain;
 }
