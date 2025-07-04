@@ -1,3 +1,6 @@
+body{
+  font-family: 'Poppins', sans-serif !important;
+}
 nav img {
   /* background-color: black; */
   object-fit: contain;
@@ -5,4 +8,186 @@ nav img {
 .hover-dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0; /* Remove offset */
+}
+ .footer {
+      background-color: #f8f9fa;
+      padding: 40px 0 0 0;
+  }
+  .footer h5 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 0 7px;
+    margin: 0 0 20px;
+    position: relative;
+    display: inline-block;
+      /* font-family: Poppins,sans-serif !important; */
+  }
+
+.footer-head-1 h5::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 1px;
+    background-color: white;
+  }
+
+  .footer p {
+      color: white;
+      font-size: 16px !important;
+  }
+  .footer ul {
+    margin-top: 5px;
+    list-style: none;
+    padding-left: 0;
+  }
+  .footer ul li {
+      margin-bottom: 10px;
+  }
+  .footer ul li a {
+    color: white;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    padding: 0 0 15px;
+  }
+  .footer ul li a:hover {
+      color: #2e5ca1;
+  }
+  .footer .contact-info p {
+      margin-bottom: 10px;
+      color: white;
+  }
+  .footer .form-control {
+      margin-bottom: 15px;
+  }
+  .copyright {
+      /* background-color: #e9ecef; */
+      background-color: none !important;
+      padding: 23px 0;
+      text-align: center;
+      color: white;
+      font-size: 16px;
+  }
+
+.footer{
+    /* background: url(../images/footer-bg-img.webp) center / cover no-repeat; */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    url(../images/footer-images/footer-bg-img.webp) center / cover no-repeat;
+    background-blend-mode: hard-light;
+    /* padding: 50px 0 11px; */
+    position: relative;
+    z-index: 1;
+}  
+
+footer .footer-row-1{
+  border-bottom: 1px solid white;
+  align-items: center;
+  margin-bottom: 68px;
+  margin-top: 12px;
+}
+
+footer .footer-row-1 .f-f-r{
+  width: auto;
+}
+
+footer .footer-row-1 .f-f-r span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+}
+footer .footer-row-1 .f-f-r img{
+  width: 200px;
+}
+footer .footer-row-1 .f-f-r .social-icons{
+    display: flex !important;
+    padding-bottom: 10px;
+    /* padding-left: 41px !important; */
+}
+footer .footer-row-1 .f-f-r a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    background: #fff;
+    margin-left:11px;
+    text-decoration: none;
+}
+
+footer .footer-head-1 ul li i{
+    color: #2e5ca1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    background: #fff;
+    /* margin-left: 8px; */
+    text-decoration: none;
+    min-width: 48px;
+}
+
+footer .footer-head-1.contact-info ul li{
+    /* padding: 0px !important; */
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px !important;
+}
+
+footer .footer-head-1.contact-info ul li a{
+    padding: 0 0px 0px 11px !important;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer .footer-head-1.Get-in-Touch{
+  margin-bottom: 0px !important;
+}
+footer .footer-head-1.Get-in-Touch form input{
+    background: 0 0;
+    border: none;
+    border-radius: 0;
+    font-family: Poppins, sans-serif;
+    /* /* font-weight: 400; */
+    color: white;
+    border-bottom: 2px solid #fff !important;
+    /* width: 100%; */
+    text-indent: 19px;
+    border: none;
+}
+footer .footer-head-1.Get-in-Touch form button{
+    padding: 13px 0;
+    font-weight: 700;
+    font-family: Poppins,sans-serif;
+}
+footer .footer-head-1.Get-in-Touch form input::placeholder{
+     color: white;
+}
+footer .footer-head-1.Get-in-Touch form .footer-form i{
+     position: absolute;
+     
+}
+footer .footer-head-1.Get-in-Touch form .footer-form{
+     margin-bottom: 28px;
+}
+footer .footer-head-1.Get-in-Touch form{
+     margin-top: 34px;
+}
+footer .footer-head-1.Get-in-Touch li a{
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-row-2{
+  /* padding: 0 0 0 35px; */
 }
