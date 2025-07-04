@@ -1,0 +1,12 @@
+@media (min-width: 240px) and (max-width: 767.98px) {
+  .only-sm-fullwidth {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 13px !important;
+  }
+  .only-sm-fullwidth .social-icons{
+    justify-content: center !important;
+  }
+}
