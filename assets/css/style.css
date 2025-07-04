@@ -73,10 +73,10 @@ nav img {
   }
 
 .footer{
-    background: url(../images/footer-images/footer-bg-img.webp) center / cover no-repeat;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    /* background: url(../images/footer-images/footer-bg-img.webp) center / cover no-repeat; */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
     url(../images/footer-images/footer-bg-img.webp) center / cover no-repeat;
-    background-blend-mode: hard-light; */
+    background-blend-mode: hard-light;
     /* padding: 50px 0 11px; */
     position: relative;
     z-index: 1;
