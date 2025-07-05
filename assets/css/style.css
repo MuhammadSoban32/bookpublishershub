@@ -292,3 +292,147 @@ footer .footer-head-1.Get-in-Touch li a{
     width: 50%;
     text-align: center
 }
+
+.proces-new-section {
+    padding: 33px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rating-list ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.rating-list ul li {
+  width: 25% !important;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: -45px;
+}
+
+.boxheight {
+  min-height: 285px !important;
+}
+
+.rating-box {
+  text-align: center;
+  padding: 20px 4px 20px 4px;
+  background: #f4f4f4;
+  border-radius: 20px;
+  box-shadow: 1px 2px 18px 0 #0000003d;
+}
+
+.rating-image {
+  border-radius: 50%;
+  background-color: #b50d0c;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  margin: -60px auto 20px;
+  align-items:center;
+}
+.rating-image img{
+  height: fit-content;
+  width: 56px;
+  object-fit: none;
+}
+
+.rating-box h2 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #333;
+  padding-bottom: 10px;
+}
+
+.rating-box h4 {
+  color: #333;
+  font-size: 14px;
+}
+.newLine-head.newLine-head-2 {
+  display: flex;
+  justify-content: center;
+}
+.newLine-head.newLine-head-2 strong {
+  color: #af0c0b !important;
+  /* font-size: 14px; */
+}
+.newLine-head h2, .newLine-head h4 {
+  color: #333;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  padding: 20px 0 0;
+  text-align: left;
+}
+
+/* Publishing Journey */
+.journey-section .journey-head h2{
+  color: #333333 !important;
+  font-size: 45px;
+  font-weight: 900 !important;
+  line-height: 55px;
+  padding: 20px 0 0;
+  text-align: center;
+}
+.journey-section .journey-head p{
+  width: 60%;
+  text-align: center !important;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 26px;
+  color: #333;
+  padding: 15px 0;
+}
+.journey-section .journey-head h2 strong{
+  color: #af0c0b !important;
+}
+
+.journey-section .process-new-box{
+    width: 22vw;
+    height: auto;
+    padding: 2rem 0;
+    background: url(../images/publishing-journy/book-writing-process-img.webp) center / cover no-repeat;
+    width: 23vw;
+    height: 19vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding-left: 15px;
+    position: relative;
+}
+.journey-section .process-main-col-bk{
+   margin-top: 26px;
+}
+
+.journey-section .process-main-col-bk .process-new-box h4{
+    line-height: 1.6vw;
+    font-size: 1vw;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+.journey-section .process-main-col-bk .process-new-box p{
+    font-size: 14px;
+    line-height: 18px;
+    width: 55%;
+}
+
+.journey-section .process-main-col-bk .process-new-box span{
+    position: absolute;
+    right: 2vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 3.3vw;
+    display: flex
+;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    font-weight: 700;
+}
