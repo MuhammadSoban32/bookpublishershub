@@ -43,6 +43,10 @@
   .testimonial-section .cl-1 .btn-div {
     margin-top: 73px;
   }
+  .hdM-txt h2 {
+      font-size: 33px !important;
+      line-height: 48px !important;
+  }
   
 }
 @media (min-width: 240px) and (max-width: 715px) {
@@ -53,5 +57,14 @@
   }
   .testimonial-section .cl-1 .btn-div {
     margin-top: 13px;
+  }
+}
+@media (min-width: 240px) and (max-width: 767px) {
+    .cta-txt h2, .hdM-txt h2 {
+        font-size: 30px !important;
+        text-align: center !important;
+    }
+  .awards-new-sec h4{
+    text-align: center !important;
   }
 }

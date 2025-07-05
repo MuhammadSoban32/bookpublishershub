@@ -262,3 +262,33 @@ footer .footer-head-1.Get-in-Touch li a{
     left: -103px !important;
     top: 240px !important;
 }
+
+/* Award New Section */
+.awards-new-sec {
+  padding: 50px 0;
+  background: url(../images/award-new-sect-img/award-bg.webp) center / cover no-repeat;
+}
+.awards-new-sec h4{
+  display: block;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.awards-new-sec h2{
+  font-size: 42px !important;
+  font-weight: bolder;
+  line-height: 62px;
+}
+
+.award-list-st ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.award-list-st ul li {
+    width: 50%;
+    text-align: center
+}
