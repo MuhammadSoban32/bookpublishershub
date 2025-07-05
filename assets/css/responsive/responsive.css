@@ -46,10 +46,12 @@
   
 }
 @media (min-width: 240px) and (max-width: 715px) {
-.testimonial-section .cl-1{
-    font-size: 33px;
-    /* font-weight: 400; */
-    text-align: center !important;
-}
-  
+  .testimonial-section .cl-1{
+      font-size: 33px;
+      /* font-weight: 400; */
+      text-align: center !important;
+  }
+  .testimonial-section .cl-1 .btn-div {
+    margin-top: 13px;
+  }
 }
