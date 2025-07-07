@@ -23,6 +23,11 @@
 .slick-next {
     left: -75px !important;
 }
+
+.journey-section .process-main-col-bk .process-new-box p {
+    font-size: 11px;
+    line-height: 13px;
+}
   
 }
 
@@ -48,7 +53,13 @@
       line-height: 48px !important;
   }
   
+  .journey-section .process-main-col-bk .process-new-box p {
+    font-size: 8px;
+    line-height: 9px;
+    /* width: 60%; */
+  }
 }
+
 @media (min-width: 240px) and (max-width: 715px) {
   .testimonial-section .cl-1{
       font-size: 33px;
@@ -73,10 +84,65 @@
   .proces-new-section.story-new-sec.recognize-potential.team-section{
     display: none !important;
   }
+
+section.proces-new-section.story-new-sec.recognize-potential.journey-section {
+  display: none !important;
+}
+  
 }
 @media (min-width: 240px) and (max-width: 416px) {
   .btn-div button {
       padding: 6px 9px 6px 9px !important;
       font-size: 11px;
+  }
+  .aboutUs-section ul li button {
+      padding: 6px 9px 6px 9px !important;
+      font-size: 11px;
+  }
+}
+
+@media (min-width: 240px) and (max-width: 991px) {
+  .journey-section .process-main-col-bk .process-new-box{
+      width: 43vw;
+      margin: 0 19px !important;
+      padding: 32px 0 !important;
+      margin: 0 0 25px 0 !important;
+  }
+  .journey-section .process-main-col-bk .process-new-box p{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .process-new-box h4 {
+    font-size: 2vw !important;
+    line-height: 3vw !important;
+  }
+
+  .aboutUs-section .about-desc h2{
+    font-size: 22px;
+    line-height: 27px;
+    padding-bottom: 12px;
+  }
+  /* .aboutUs-section .about-desc p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    line-height: 28px;
+    padding-bottom: 40px;
+  } */
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .aboutUs-section .about-desc h2 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .aboutUs-section .about-desc p {
+    text-align: center;
+    /* font-size: 28px; */
+    /* line-height: 32px; */
+  }
+  ul.list-unstyled.p-0.d-flex {
+    justify-content: center;
   }
 }
