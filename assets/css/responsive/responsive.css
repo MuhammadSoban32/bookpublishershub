@@ -27,6 +27,7 @@
 .journey-section .process-main-col-bk .process-new-box p {
     font-size: 11px;
     line-height: 13px;
+    /* width: 60%; */
 }
   
 }
@@ -92,12 +93,16 @@ section.proces-new-section.story-new-sec.recognize-potential.journey-section {
 }
 @media (min-width: 240px) and (max-width: 416px) {
   .btn-div button {
-      padding: 6px 9px 6px 9px !important;
-      font-size: 11px;
+    padding: 6px 9px 6px 9px !important;
+    font-size: 11px;
   }
   .aboutUs-section ul li button {
-      padding: 6px 9px 6px 9px !important;
-      font-size: 11px;
+    padding: 6px 9px 6px 9px !important;
+    font-size: 11px;
+  }
+  .want-to-publish-book ul li button{
+    padding: 6px 9px 6px 9px !important;
+    font-size: 11px !important;
   }
 }
 
@@ -144,5 +149,18 @@ section.proces-new-section.story-new-sec.recognize-potential.journey-section {
   }
   ul.list-unstyled.p-0.d-flex {
     justify-content: center;
+  }
+
+  .want-to-publish-book ul li {
+    justify-content: center;
+  }
+  .want-to-publish-book .cta-txt.hdM-txt.wonderful.stories
+  {
+    text-align: center;
+  }
+
+  .want-to-publish-book .row{
+    /* display: none !important; */
+    padding: 20px 0 8px 20px !important;
   }
 }
