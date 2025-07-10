@@ -164,3 +164,34 @@ section.proces-new-section.story-new-sec.recognize-potential.journey-section {
     padding: 20px 0 8px 20px !important;
   }
 }
+@media (min-width: 320px) and (max-width: 1172px) {
+ .testimonial-section-2 .cl-1 h2{
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 35px;
+  }
+  .testimonial-section-2 .cl-1 p{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 100;
+  }
+  .testimonial-section-2 .slick-prev {
+      left: -103px !important;
+      top: 250px !important;
+      background: #b50d0c !important;
+  }
+
+  .testimonial-section-2 .slick-next {
+      left: -103px !important;
+      top: 189px !important;
+  }
+  .background-text {
+    display: none !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 479px) {
+  .custom-card-1.text-center.mb-3 {
+    display: flex;
+    justify-content: center;
+  }
+}

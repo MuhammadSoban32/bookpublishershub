@@ -578,3 +578,82 @@ footer .footer-head-1.Get-in-Touch li a{
   justify-content: center;
   align-items: self-end; */
 }
+
+/* Want To Publish Book 2 */
+
+.marque-st {
+  text-align: center;
+  font-size: 175px;
+  width: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 4px #fa0000;
+  top: 250px;
+  bottom: 0;
+  left: 0;
+  /* font-weight: 700; */
+  /* outline-color: aquamarine; */
+  color: transparent;
+
+}
+.background-text {
+  /* max-width: 100% !important; */
+  overflow: hidden;
+  max-width: 100% !important;
+  font-size: 211px;
+  -webkit-text-stroke: 3.1px red;
+  background: inherit;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  /* font-weight: bold; */
+  opacity: 0.2;
+  position: absolute;
+  /* top: 92%; */
+  bottom: -23%;
+  left: 0;
+  /* transform: translate(-50%, -50%); */
+  z-index: 0;
+  white-space: nowrap;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.testimonial-section .custom-card-1{
+  /* background: url('../images/want-to-publish-book-2/published-img6.webp'); */
+  /* width: 100%; */
+  /* background-color: red !important; */
+  /* height: 100%;
+  background-size: cover;
+  background-position: center; */
+}
+.slick-slide.slick-current.slick-center{
+  /* width: 272px !important; */
+}
+
+.testimonial-section-2 .cl-1 h2{
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  color: #333;
+}
+.testimonial-section-2 .cl-1 p{
+  color: #000;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 200;
+}
+
+.testimonial-section-2 .cl-1 .btn-div {
+    margin-top: 0px !important;
+}
+
+.testimonial-section-2 .slick-prev {
+    left: -103px !important;
+    top: 345px !important;
+    background: #b50d0c !important;
+}
+
+.testimonial-section-2 .slick-next {
+    left: -103px !important;
+    top: 280px !important;
+}

@@ -157,6 +157,80 @@
         </div>
       </nav>
     </header>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section testimonial-section-2">
+      <!-- <div class="bg-text">
+        <h2 class="marque-st">
+            Book Publishers Hub
+        </h2>
+      </div> -->
+       <!-- Background Text or Content -->
+       <div class="container-fluid bg-succe ss position-relative p-0 mb-5">
+          <h1 class="background-text">
+            Book Publishers Hub
+          </h1>
+        <div class="row  mb-3 mx-4 ">
+          <div class="col-md-6 col-lg-5 cl-1">
+            <h2>Want To Publish Your Book?</h2>
+            <p class="p1">Book Publishers Hub knows this Publishing road well. TOP Kindle Direct Publishing is our specialty. We're experts in turning your work into an TOP-published masterpiece. We'll guide you through TOP publishing's complexities, saving you time, money, and energy. From your workplace to TOP's Kindle shop, we cover everything.</p>
+            <div class="btn-div">
+              <button class="btn btn-dark py-2">
+                Live Chat Now 
+                <i class="fa fa-commenting" aria-hidden="true"></i>
+              </button>
+              <button class="btn py-2" style="background-color: #b50d0c;">
+                Request a Quote
+                <i class="fa fa-circle" aria-hidden="true" style="color: white;"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-7 mt-5 cl-2">
+            <!-- Slider -->
+              <div class="testimonial-section">
+                <div class="slider-1">
+                  <div>
+                    <div class="custom-card-1 text-center mb-3">
+                        <img class="img-fluid" src="assets/images/want-to-publish-book-2/published-img3.webp" alt="">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="custom-card-1 text-center mb-3">
+                        <img class="img-fluid" src="assets/images/want-to-publish-book-2/published-img4.webp" alt="">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="custom-card-1 text-center mb-3">
+                        <img class="img-fluid" src="assets/images/want-to-publish-book-2/published-img5.webp" alt="">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="custom-card-1 text-center mb-3">
+                        <img class="img-fluid" src="assets/images/want-to-publish-book-2/published-img6.webp" alt="">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="custom-card-1 text-center mb-3">
+                        <img class="img-fluid" src="assets/images/want-to-publish-book-2/published-img7.webp" alt="">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="custom-card-1 text-center mb-3">
+                        <img class="img-fluid" src="assets/images/want-to-publish-book-2/published-img8.webp" alt="">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="custom-card-1 text-center mb-3">
+                        <img class="img-fluid" src="assets/images/want-to-publish-book-2/published-img10.webp" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
     <!-- want to publish a book -->
     <section class="cta-sec cta-sec-new cta-sec-new2  want-to-publish-book">
         <div class="container">
@@ -651,6 +725,44 @@ $(document).ready(function(){
           breakpoint: 768, // 👈 Your Target
           settings: {
           slidesToShow: 1,
+          centerMode: true, // 👈 Enable centerMode
+          centerPadding: '60px', // 👈 Show half sides
+          dots: true // 👈 Enable dots on tablets
+        }
+      },
+      {
+        breakpoint: 480, // Optional: very small screens
+        settings: {
+          slidesToShow: 1,
+          dots: true
+        }
+      }
+    ]
+  });
+  // Slider 1
+
+  $('.slider-1').slick({
+    centerMode: true,
+    centerPadding: '0px',
+    slidesToShow: 3, // Default for large screens
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 1000,
+    cssEase: 'cubic-bezier(0.77, 0, 0.175, 1)', // 👈 smooth and natural animation
+    arrows: true,
+    dots: false,
+    responsive: [
+      {
+        breakpoint: 1024, // ≤ 1024px
+        settings: {
+          slidesToShow: 2,
+          dots: true // 👈 Enable dots on tablets
+        }
+      },
+      {
+          breakpoint: 768, // 👈 Your Target
+          settings: {
+          slidesToShow: 2,
           centerMode: true, // 👈 Enable centerMode
           centerPadding: '60px', // 👈 Show half sides
           dots: true // 👈 Enable dots on tablets
