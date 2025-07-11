@@ -1,10 +1,255 @@
 body{
   font-family: 'Poppins', sans-serif !important;
+  margin: 0;
+  padding: 0;
 }
+/* body {
+  margin: 0;
+  padding: 0;
+} */
+/* Navbar Css Start */
+
 nav img {
   /* background-color: black; */
   object-fit: contain;
+  width: 20%;
 }
+
+
+.custom-dropdown-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  padding: 10px;
+  width: 350px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* Container for image + text */
+.dropdown-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Image styling */
+.dropdown-img {
+  width: 19px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Optional: dropdown item text */
+.dropdown-item {
+  white-space: nowrap;
+  font-size: 14px;
+  padding: 0px 0px;
+}
+
+.mud1{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  padding: 10px;
+  width: 0px !important;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.hover-dropdown:hover .custom-dropdown-grid {
+  display: grid;
+}
+@media(max-width:1361px) {
+  .responsive1{   
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+    width: 260px !important;
+  max-height: 300px;
+  overflow-y: auto;
+  }
+  }
+
+.dropdown-toggle {
+  pointer-events: none;
+  cursor: default;
+}
+
+.author h1{
+  font-size: 10vh;
+  /* text-align: center; */
+  color: white;
+}
+.highlight-text {
+  font-size: 8vh;
+  border-radius: 80px;
+  background-color: #b50d0c;
+  color: white;
+  display: inline-block;
+  padding: 10px 27px;
+}
+.text p{
+  display: inline-block;
+  color: white;
+  width: 70%;
+}
+.main {
+  background-image: url(../images/footer-images/footer-bg-img.webp);
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+  padding-top: 150px;
+  color: white;
+  position: relative;
+  margin-top: -77px; /* 🟢 Shift section upwards under navbar */
+}
+
+.navbar {
+  background: transparent !important;
+  position: relative;
+  z-index: 10; 
+}
+.navbar {
+  background-color: transparent !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.main {
+
+  padding-top: 150px; 
+}
+.navbar-nav .nav-link {
+  color: white;
+}
+
+/* .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; 
+  background-color: transparent !important;
+} */
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 0; /* right below navbar */
+    left: 50%;
+     height: 100vh;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.95); /* or white, your choice */
+    padding: 30px 20px;
+    z-index: 9999;
+     transition: all 0.3s ease;
+  }
+  
+  .navbar-collapse.show {
+  right:  0;
+  }
+
+    .navbar-toggler {
+    z-index: 10000;
+  }
+}
+button.navbar-toggler {
+  background-color: #b50d0c;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='3' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.my-input {
+  padding: 12px 16px !important;           /* apni marzi ka padding */
+  background-color: transparent !important; /* transparent background */
+  border: 1px solid white !important;       /* white border */
+  color: white !important;                  /* text color white */
+  border-radius: 5px !important;            /* optional: rounded corners */
+}
+
+.my-input::placeholder {
+  color: white !important; 
+}
+.click button {
+  background-color: #bf1323;
+  color: white;
+  padding: 8px 50px;
+  font-size: 21px;
+  border: none;
+  border-radius: 10px;
+}
+.form-wrapperrr {
+  background-color: rgba(0, 0, 0, 0.822); 
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+.secbut{
+  display: flex;
+  gap: 47px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.secbut .live{
+  background-color: black;
+  color: white;
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid white;
+}
+.secbut .req{
+  background-color: #b50d0c;
+  color: white;
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid white;
+}
+.secbut{
+  margin-top: 20px;
+}
+.image-marquee-wrapper {
+  overflow: hidden;
+   width: 100%;
+  background-color: transparent;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+
+.image-marquee {
+  display: flex;
+  gap: 70px;
+  width: max-content;
+  animation: scroll-marquee 18s linear infinite;
+}
+
+.image-marquee img {
+   width: auto;
+  height: 40px; 
+  margin-right: 30px;
+  filter: brightness(0) invert(1);
+}
+
+
+@keyframes scroll-marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+/* Navbar Css End */
+
 .hover-dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0; /* Remove offset */
@@ -656,4 +901,103 @@ footer .footer-head-1.Get-in-Touch li a{
 .testimonial-section-2 .slick-next {
     left: -103px !important;
     top: 280px !important;
+}
+
+
+/* home-publish-section */
+
+.home-publish-section{
+  background-color: #f4f4f4;
+}
+
+.home-publish-head span {
+    font-size: 20px;
+    text-transform: uppercase;
+    display: table;
+    margin: auto;
+    color: #000;
+    font-weight: 500;
+}
+
+.home-publish-head h2 {
+    font-size: 45px;
+    font-weight: 700;
+    padding: 20px 0;
+    color: #333;
+    line-height: 55px;
+    text-align: center;
+}
+
+.home-publish-head h2 strong {
+    color: #af0c0b;
+    text-transform: capitalize;
+}
+
+.home-publish-box-inner{
+    display: flex;
+    align-items: center;
+    column-gap: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center !important;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.home-publish-section .scroll-para {
+  height: 89px;
+  width: 276px;
+  overflow-y: auto;
+  scrollbar-width: thin;               
+  scrollbar-color: #b50d0c transparent;
+  padding: 0px 4px 0 0;
+}
+
+/* WebKit (Chrome, Safari, Edge) */
+.home-publish-section .scroll-para::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scroll-para::-webkit-scrollbar-button:single-button {
+  display: none;
+  background: transparent;
+  height: 0;
+  width: 0;
+}
+.home-publish-section .scroll-para::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.home-publish-section .scroll-para::-webkit-scrollbar-thumb {
+  background-color: #b50d0c;
+  border-radius: 10px;
+  min-height: 50px;
+}
+
+
+.testimonial-section .btn-div button{
+    font-size: 12px;
+    padding: 5px 10px 5px 10px !important;
+}
+
+.btn-div {
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 33px;
+}
+
+.home-publish-box-inner h4{
+  color: #333;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.home-publish-box-inner p{
+  color: #333;
+  font-size: 14px;
+  line-height: 28px;
+  /* padding: 25px 20px 0; */
+  height: 145px;
 }
