@@ -577,7 +577,7 @@
 
     <!-- OUR PUBLISHING SERVICES -->
     <section class="home-publish-section">
-      <div class="container-fluid">
+      <div class="container-fluid py-5">
         
         <div class="home-publish-head text-center">
 
@@ -599,11 +599,10 @@
                       <img class="img-fluid" src="assets\images\our-publishing-service\fantasy.webp" alt="">
                   </div>
                   <div class="home-publish-box-inner">
-                        <h4>Autobiography </h4>
+                        <h4>Blog</h4>
                         <div class="scroll-para">
                             <p>Do you want to share your fascinating life story with the world? We've got you. At Book
-                            Publishers Hub, we transform lives by spreading your story to the appropriate audience.
-                            so they can hear it.
+                            Publishers Hub.
                         </p>
                         </div>
                         <!--<h4>Celebrity</h4>-->
@@ -730,7 +729,7 @@
                 </div>
                 <div>
                   <div class="custom-card-1 text-center mb-3 d-flex justify-content-center">
-                      <img class="img-fluid" src="es/want-to-publish-book-2/published-img3.webp" alt="">
+                      <img class="img-fluid" src="assets/images/want-to-publish-book-2/published-img3.webp" alt="">
                   </div>
                   <div class="home-publish-box-inner">
                         <h4>Autobiography </h4>
@@ -1387,7 +1386,7 @@ $(document).ready(function(){
     centerMode: true,
     centerPadding: '0px',
     slidesToShow: 3, // Default for large screens
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     speed: 1000,
     cssEase: 'cubic-bezier(0.77, 0, 0.175, 1)', // 👈 smooth and natural animation
@@ -1420,26 +1419,7 @@ $(document).ready(function(){
     ]
   });
 
-  // Dot size badhane ke liye after slick init
-$('.slider-2').on('init', function(event, slick) {
-    // Button size
-    $('.slick-dots li button').css({
-        'width': '20px',
-        'height': '20px'
-    });
 
-    // Dot icon size
-    $('.slick-dots li button:before').css({
-        'font-size': '20px',
-        'color': '#333'  // optional
-    });
-
-    // Space between dots
-    $('.slick-dots li').css({
-        'margin': '0 8px'
-    });
-});
-  
 });
 
 </script>
