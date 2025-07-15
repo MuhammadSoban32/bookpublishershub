@@ -15,6 +15,14 @@ nav img {
   width: 20%;
 }
 
+ .logoo {
+    max-height: 100px;     /* 👈 Bigger size */
+    width: auto;
+    display: block;
+    object-fit: contain;
+    filter: none;
+    opacity: 1;
+  }
 
 .custom-dropdown-grid {
   display: grid;
@@ -76,9 +84,23 @@ nav img {
 }
 
 .author h1{
-  font-size: 10vh;
-  /* text-align: center; */
-  color: white;
+    line-height: 77px;
+    padding-bottom: 15px;
+    padding-top: 0;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    padding: 30px 0 35px;
+    color: #fff;
+}
+.author span{
+    font-size: 60px;
+    font-weight: 700;
+    border-radius: 70px;
+    background: #b50d0c;
+    display: table;
+    margin: 0 auto;
+    padding: 0 25px 0px 25px;
 }
 .highlight-text {
   font-size: 1vh;
@@ -92,16 +114,20 @@ nav img {
   display: inline-block;
   color: white;
   width: 70%;
+  font-size: 14px;
 }
 .main {
-  background-image: url(../images/footer-images/footer-bg-img.webp);
-  background-size: cover;
-  background-position: center;
+  /* background-image: url(../images/footer-images/footer-bg-img.webp); */
+  /* background-size: cover; */
+  /* background-position: center; */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    url(../images/footer-images/footer-bg-img.webp) center / cover no-repeat;
+    background-blend-mode: hard-light;
   /* height: 100vh; */
   padding-top: 150px;
   color: white;
   position: relative;
-  margin-top: -77px; /* 🟢 Shift section upwards under navbar */
+  margin-top: -127px; /* 🟢 Shift section upwards under navbar */
 }
 
 .navbar {
@@ -223,6 +249,7 @@ button.navbar-toggler {
   background-color: transparent;
   padding: 10px 0;
   margin-top: 50px;
+  margin-bottom: 68px; 
 }
 
 .image-marquee {
@@ -233,9 +260,9 @@ button.navbar-toggler {
 }
 
 .image-marquee img {
-   width: auto;
-  height: 40px; 
-  margin-right: 30px;
+   width: 133px;
+  height: auto; 
+  /* margin-right: 30px; */
   filter: brightness(0) invert(1);
 }
 
@@ -1033,3 +1060,29 @@ footer .footer-head-1.Get-in-Touch li a{
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
 
   }
+
+  .main .boxheight {
+    min-height: 54px !important;
+    /* height: 40px !important; */
+    height: 156px;
+    /* padding: 0; */
+    /* margin: 0px !important; */
+    /* padding: 0 !important; */
+    padding-bottom: 0 !important;
+}
+
+  .main .boxheight h2{
+    padding-bottom: 5px !important;
+    margin-bottom: 0 !important;
+}
+
+section.main{
+ margin-bottom: 130px;
+}
+
+.main-slider .projects-count{
+  position: absolute !important;
+  top: -57px;
+  left: 0;
+  width: 100%; 
+}
