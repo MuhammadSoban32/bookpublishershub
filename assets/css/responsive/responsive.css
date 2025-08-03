@@ -266,4 +266,7 @@ section.proces-new-section.story-new-sec.recognize-potential.journey-section {
     display: flex;
     justify-content: center;
   }
+  .logoo {
+    width: 200px;
+  }
 }
