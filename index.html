@@ -962,7 +962,49 @@
         <div class="row">
         <div class="order-lg-0 order-md-1 order-sm-1 order-1 col-lg-6 col-md-12 col-sm-12 about-desc-img-sec d-flex align-items-center justify-content-center bg-dange r" style="height: auto;">
           <!-- <h1 class="bg-success">lllloa</h1> -->
-          <img class="img-fluid" src="assets\images\about-us\rmbg_20250803_184827.png" data-src="assets/images/new-home-pg/1.webp" alt="Book Publishers Hub book cover">
+          <!-- <img class="img-fluid" src="assets\images\about-us\7.jpg" data-src="assets/images/new-home-pg/1.webp" alt="Book Publishers Hub book cover"> -->
+            <div class="w-100 ">
+            <!-- Slider -->
+              <div class="testimonial-section">
+                <div class="slider-3">
+                  <div>
+                    <div class="custom-card-1 text-center mb-3 d-flex justify-content-center">
+                        <img class="img-fluid " src="assets\images\about-us\1.png"  alt="">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="custom-card-1 text-center mb-3 d-flex justify-content-center">
+                        <img class="img-fluid " src="assets\images\about-us\2.png" alt="">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="custom-card-1 text-center mb-3 d-flex justify-content-center">
+                        <img class="img-fluid " src="assets\images\about-us\3.png" alt="">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="custom-card-1 text-center mb-3 d-flex justify-content-center">
+                        <img class="img-fluid" src="assets\images\about-us\4.png" alt="">
+                    </div>
+                  </div>
+                  <!-- <div>
+                    <div class="custom-card-1 text-center mb-3 d-flex justify-content-center">
+                        <img class="img-fluid custom-img" src="assets\images\about-us\5.jpg" alt="">
+                    </div>
+                  </div> -->
+                  <!-- <div>
+                    <div class="custom-card-1 text-center mb-3 d-flex justify-content-center">
+                        <img class="img-fluid custom-img" src="assets\images\about-us\6.jpg" alt="">
+                    </div>
+                  </div> -->
+                  <!-- <div>
+                    <div class="custom-card-1 text-center mb-3 d-flex justify-content-center">
+                        <img class="img-fluid custom-img" src="assets\images\about-us\7.jpg" alt="">
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+          </div>
         </div>
 
         <div class="order-lg-1 order-md-0 order-sm-0 order-0 col-lg-6 col-md-12 col-sm-12 about-desc">
@@ -1273,7 +1315,7 @@
                   <div class="f-f-r only-sm-fullwidth">
                       <div class="social-icons">
                           <a href="http://facebook.com/fasttechinnovationsSoftwareHouse/?ref=pages_you_manage"><i class="fa fa-lg fa-facebook"></i></a>
-                          <a href="http://instagram.com/fasttechinnovation"><i class="fa fa-lg fa-instagram"></i></a>
+                          <a href="https://wa.me/923432113474"><i class="fa fa-lg fa-whatsapp"></i></a>
                           <a href="https://www.linkedin.com/company/96376869"><i class="fa fa-lg fa-linkedin"></i></a>
                           <a href="https://x.com/FTIgraphics"><i class="fa fa-lg fa-twitter"></i></a>
                           <!-- <a href="https://www.trustpilot.com/"><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="//bookpublishershub.com/assets/images/trustpilot-icon.webp"   alt="Book Publishers Hub"></a> -->
@@ -1310,7 +1352,7 @@
                     <ul >
                         <li class=" justify-content-center justify-content-md-start  justify-content-lg-start">
                           <i class="fa fa-lg fa-volume-control-phone"></i>
-                          <a href="#">(716) 351-4264</a>
+                          <a href="#">+92 343 2113474</a>
                         </li>
                         <li class=" justify-content-center justify-content-md-start  justify-content-lg-start">
                           <i class="fa fa-mdd fa-envelope"></i>
@@ -1450,7 +1492,7 @@ $(document).ready(function(){
     centerMode: true,
     centerPadding: '0px',
     slidesToShow: 3, // Default for large screens
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     speed: 1000,
     cssEase: 'cubic-bezier(0.77, 0, 0.175, 1)', // 👈 smooth and natural animation
@@ -1468,6 +1510,42 @@ $(document).ready(function(){
           breakpoint: 768, // 👈 Your Target
           settings: {
           slidesToShow: 2,
+          centerMode: true, // 👈 Enable centerMode
+          centerPadding: '60px', // 👈 Show half sides
+          dots: true // 👈 Enable dots on tablets
+        }
+      },
+      {
+        breakpoint: 480, // Optional: very small screens
+        settings: {
+          slidesToShow: 1,
+          dots: true
+        }
+      }
+    ]
+  });
+  $('.slider-3').slick({
+    centerMode: true,
+    centerPadding: '0px',
+    slidesToShow: 1, // Default for large screens
+    autoplay: true,
+    autoplaySpeed: 1000,
+    speed: 1000,
+    cssEase: 'cubic-bezier(0.77, 0, 0.175, 1)', // 👈 smooth and natural animation
+    arrows: false,
+    dots: false,
+    responsive: [
+      {
+        breakpoint: 1024, // ≤ 1024px
+        settings: {
+          slidesToShow: 1,
+          dots: true // 👈 Enable dots on tablets
+        }
+      },
+      {
+          breakpoint: 768, // 👈 Your Target
+          settings: {
+          slidesToShow: 1,
           centerMode: true, // 👈 Enable centerMode
           centerPadding: '60px', // 👈 Show half sides
           dots: true // 👈 Enable dots on tablets
