@@ -937,7 +937,9 @@ footer .footer-head-1.Get-in-Touch li a{
 /* home-publish-section */
 
 .home-publish-section{
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
+  background-color: white;
+
 }
 
 .home-publish-head span {
