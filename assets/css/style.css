@@ -91,7 +91,7 @@ nav img {
     text-align: center;
     font-size: 60px;
     font-weight: 700;
-    padding: 30px 0 35px;
+    padding: 30px 0 18px;
     color: #fff;
 }
 .author span{
@@ -194,6 +194,14 @@ button.navbar-toggler {
   padding: 12px 16px !important;           /* apni marzi ka padding */
   background-color: transparent !important; /* transparent background */
   border: 1px solid white !important;       /* white border */
+  color: white !important;                  /* text color white */
+  border-radius: 5px !important;            /* optional: rounded corners */
+}
+
+.my-input-btn {
+  padding: 12px 16px !important;           /* apni marzi ka padding */
+  background-color: #bf1323 !important; /* transparent background */
+  /* border: 1px solid white !important;       white border */
   color: white !important;                  /* text color white */
   border-radius: 5px !important;            /* optional: rounded corners */
 }
