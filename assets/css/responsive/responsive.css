@@ -270,3 +270,8 @@ section.proces-new-section.story-new-sec.recognize-potential.journey-section {
     width: 200px;
   }
 }
+@media (min-width: 1700px) and (max-width: 2106px) {
+  button.slick-prev.slick-arrow {
+    top: 176px !important;
+  }
+}
