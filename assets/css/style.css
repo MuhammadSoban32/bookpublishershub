@@ -1017,7 +1017,8 @@ footer .footer-head-1.Get-in-Touch li a{
 
 .testimonial-section .btn-div button{
     font-size: 12px;
-    padding: 5px 10px 5px 10px !important;
+    /* padding: 5px 10px 5px 10px !important; */
+    padding: 11px 14px 9px 12px !important;
 }
 
 .btn-div {
@@ -1105,3 +1106,38 @@ section.main{
   max-width: 700px !important;  
   height: auto !important;      
 } */
+
+.cl-2 h2{
+  font-size: 45px !important;
+  font-weight: 900 !important;
+}
+
+.cl-2 .slider-wrapper {
+    padding: 0 62px;
+}
+
+.cl-2 p:first-of-type {
+    font-size: 17px !important;
+    font-weight: 900;
+}
+.cl-2 p:nth-of-type(2) {
+    font-size: 13px !important;
+    font-weight: 500;
+}
+.cl-2 p:nth-of-type(3) {
+    font-size: 15px !important;
+    font-weight: 500;
+}
+.cl-2 p:nth-of-type(4) {
+    font-size: 13px !important;
+    font-weight: 500;
+}
+.cl-2 p strong {
+    font-size: 14px !important;
+    font-weight: 900;
+  }
+.cl-2 h3 {
+    font-size: 45px !important;
+    font-family: 'Great Vibes', cursive !important;
+    font-weight: 900;
+  }
