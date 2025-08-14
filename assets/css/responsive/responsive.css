@@ -274,4 +274,14 @@ section.proces-new-section.story-new-sec.recognize-potential.journey-section {
   button.slick-prev.slick-arrow {
     top: 176px !important;
   }
+
+  button.slick-prev.slick-arrow {
+    top: 161px !important;
+}
+button.slick-next.slick-arrow {
+    top: 221px !important;
+}
+.cl-2 .slider-wrapper {
+    padding: 0 169px;
+}
 }
