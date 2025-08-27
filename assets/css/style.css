@@ -1141,3 +1141,7 @@ section.main{
     font-family: 'Great Vibes', cursive !important;
     font-weight: 900;
   }
+
+.home-publish-section {
+  background: #f4f4f4 !important;
+}
