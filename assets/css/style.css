@@ -1151,3 +1151,20 @@ section.main{
     width: 303px !important;
     height: 493px;
 }
+
+/* article page styling */
+.main.article-page{
+  /* background-image: url(../images/footer-images/footer-bg-img.webp); */
+  /* background-size: cover; */
+  /* background-position: center; */
+  background: url(../images/articale-writing/images/cta-bg2.webp) center / cover no-repeat;
+    /* background-blend-mode:normal; */
+  /* height: 100vh; */
+  padding-top: 150px;
+  color: white;
+  position: relative;
+  margin-top: -127px; /* 🟢 Shift section upwards under navbar */
+}
+.article-page .form-wrapperrr {
+    background: #061922;
+}
