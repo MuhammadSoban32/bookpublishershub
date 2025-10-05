@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+nav img {
+  /* background-color: black; */
+  object-fit: contain;
+  width: 20%;
+}
+
+
+.custom-dropdown-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  padding: 10px;
+  width: 350px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* Container for image + text */
+.mudassir-dropdown-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Image styling */
+.mudassir-dropdown-img {
+  width: 19px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Optional: dropdown item text */
+.mudassir-dropdown-item {
+  white-space: nowrap;
+  font-size: 14px;
+  padding: 0px 0px;
+}
+
+.mudassir-mud1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  padding: 10px;
+  width: 0px !important;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.mudassir-hover-dropdown:hover .mudassir-custom-dropdown-grid {
+  display: grid;
+}
+
+@media(max-width:1361px) {
+  .mudassir-responsive1 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 260px !important;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+}
+
+.mudassir-dropdown-toggle {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        left: 20%;
+        width: 80%;
+  }
+}
