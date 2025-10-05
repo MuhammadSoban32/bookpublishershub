@@ -78,4 +78,7 @@ nav img {
         left: 20%;
         width: 80%;
   }
+  .custom-dropdown-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
 }
