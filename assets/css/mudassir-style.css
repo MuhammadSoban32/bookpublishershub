@@ -80,5 +80,6 @@ nav img {
   }
   .custom-dropdown-grid {
     grid-template-columns: repeat(2, 1fr) !important;
+    width: 260px !important;
   }
 }
