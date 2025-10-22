@@ -347,4 +347,10 @@ button.slick-next.slick-arrow {
     height: 413px;
     object-fit: cover;
 }
+.text-sm-center{
+  text-align: center !important;
+}
+.mt-sm-3{
+  margin-top: 13px !important;
+}
 }
